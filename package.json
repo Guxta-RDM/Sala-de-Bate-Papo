@@ -1,0 +1,33 @@
+{
+  "name": "sala-de-bate-papo",
+  "version": "1.0.0",
+  "description": "Uma sala de bate papo criada para servir como trabalho final da matéria Programação para Internet.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guxta-RDM/Sala-de-Bate-Papo.git"
+  },
+  "keywords": [
+    "BatePapo",
+    "Node",
+    "Post",
+    "Cookies",
+    "Session"
+  ],
+  "author": "Gustavo Alonso da Silva Candido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guxta-RDM/Sala-de-Bate-Papo/issues"
+  },
+  "homepage": "https://github.com/Guxta-RDM/Sala-de-Bate-Papo#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  }
+}
