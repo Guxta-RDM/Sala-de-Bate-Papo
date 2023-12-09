@@ -1,0 +1,76 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: #292523;
+    color: #F8F7F3;
+}
+#caixa{
+    width: 450px;
+    background-color: #7e7b7b;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20vh;
+    display: block;
+    color: #F8F7F3;
+    align-items: center;
+    border-radius: 5px;
+    border: 3px outset rgb(165, 164, 164);
+    padding: 5px;
+}
+
+#BotconfirmLog{
+    border-radius: 5px;
+    border: 2px solid rgb(1, 95, 1);
+    color: #F8F7F3;
+    background-color: rgb(1, 160, 1);
+    height: 30px;
+    width: 100px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#BotconfirmLog:hover{
+    cursor: pointer;
+    background-color: rgb(0, 120, 0);
+    border: 2px solid rgb(0, 90, 0);
+}
+
+#BotconfirmCad{
+    border-radius: 5px;
+    color: #F8F7F3;
+    background-color: rgb(1, 200, 1);
+    border: 2px solid rgb(2, 130, 1);
+    height: 30px;
+    width: 100px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#BotconfirmCad:hover{
+    cursor: pointer;
+    background-color: rgb(0, 100, 0);
+    border: 2px solid rgb(0, 80, 0);
+}
+
+.rotul{
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    opacity: 1;
+}
+
+.Title{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+}
+
+input{
+    border-radius: 5px;
+    width: 250px;
+    height: 20px;
+    opacity: 1;
+    border: 2px solid black;
+}
