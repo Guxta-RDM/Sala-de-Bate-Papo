@@ -56,7 +56,6 @@ body{
 .rotul{
     font-weight: bold;
     text-align: center;
-    font-style: italic;
     opacity: 1;
 }
 
@@ -64,6 +63,12 @@ body{
     text-align: center;
     display: block;
     font-weight: bold;
+    font-style: italic;
+}
+
+.rockDanger{
+    color: red;
+    text-align: center;
     font-style: italic;
 }
 

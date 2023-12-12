@@ -1,0 +1,198 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: #292523;
+    color: #F8F7F3;
+}
+
+#Title{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* DIV FUNDO */
+
+#caixa-chatEX{
+    width: 100vh;
+    height: 85vh;
+    background-color: #7e7b7b;
+    margin: auto;
+    color: #F8F7F3;
+    border-radius: 5px;
+    border: 3px outset rgb(165, 164, 164);
+    padding: 5px;
+}
+
+/* ------------------------------------ */
+
+/* DIV INTERIOR */
+
+#caixa-chatIN{
+    width: 98vh;
+    height: 70vh;
+    background-color: rgb(153, 153, 153);
+    margin: auto;
+    color: black;
+    border-radius: 5px;
+    border: 3px inset rgb(165, 164, 164);
+    overflow-y: scroll;
+}
+
+#caixa-chatIN::-webkit-scrollbar{
+    width: 0.1em;
+}
+
+/* ------------------------------------ */
+
+/* DIVs das Mensagens */
+
+/*
+
+As classes abaixo referem-se as <div> das mensagens. 
+.caixa-chat-msgOuter: Mensagens de outros usuários, localizadas a esquerda. 
+.caixa-chat-msgME: Mensagens do próprio usuário, localizadas a direita.
+
+*/
+
+.nicknameOuter{
+    white-space: nowrap;
+    font-weight: bold;
+    text-align: left;
+}
+
+.caixa-chat-msgOuter{
+    color: white;
+    background-color: #037971;
+    text-align: left;
+    padding-left: 1vh;
+    margin-right: auto;
+    width: 20vh;
+    height: 4vh;
+    line-height: 4vh;
+    border-radius: 5vh;
+}
+
+.nicknameMe{
+    white-space: nowrap;
+    text-align: end;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.caixa-chat-msgMe{
+    color: black;
+    background-color: #D0FCB3;
+    text-align: left;
+    margin-left: auto;
+    padding-left: 1vh;
+    width: 20vh;
+    min-height: 4vh; 
+    line-height: 4vh;
+    border-radius: 5vh;
+    overflow: hidden;
+    word-wrap: break-word;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+/* ------------------------------------ */
+
+/* DIV da Área de Mensagem */
+
+/*
+
+pseNav: Refere-se a <div> que compreende a área onde se estão contidos o <select>, <input> e o <button>.
+selUSU: Refere-se ao <select>, este localizado ao lado esquerdo da <div>.
+msgArea: Refere-se ao <input>, este localizado no meio da <div>.
+BotEnv: Refere-se ao <button>, este localizado abaixo do <select> e do <input> ao lado direito da <div>.
+
+*/
+
+#pseNav{
+    position: absolute;
+    top: 109vh;
+    right: 41vh;
+    align-items: center;
+    display: flex;
+    height: 11vh;
+    width: 98vh;
+    background-color: #FEC196;
+    border: 3px inset rgb(165, 164, 164);
+    border-radius: 1vh;
+}
+
+#selUSU{
+    order: 1;
+    border: 3px outset rgb(165, 164, 164);
+    position: relative;
+    left: 1vh;
+    bottom: 1.6vh;
+    border-radius: 0.5vh;
+    outline: none;
+}
+
+#selUSU:focus{
+    border: 3px inset rgb(165, 164, 164);
+    outline: none;
+}
+
+#msgArea{
+    order: 2;
+    border: 3px outset rgb(165, 164, 164);
+    position: absolute;
+    left: 12vh;
+    top: 2vh;
+    width: 84vh;
+    outline: none;
+    border-radius: 0.5vh;
+}
+
+#msgArea:focus{
+    outline: none;
+    border: 3px inset rgb(165, 164, 164);
+}
+
+#BotEnv{
+    order: 3;
+    border: 3px outset rgb(165, 164, 164);
+    position: absolute;
+    left: 90vh;
+    outline: none;
+    bottom: 1vh;
+    border-radius: 0.5vh;
+    background-color: green;
+    color: white;
+}
+
+#BotEnv:hover{
+    cursor: pointer;
+    outline: none;
+    border: 3px inset rgb(165, 164, 164);
+}
+
+#backMenu{
+    order: 3;
+    border: 3px outset rgb(165, 164, 164);
+    position: absolute;
+    left: 80vh;
+    outline: none;
+    bottom: 1vh;
+    border-radius: 0.5vh;
+    background-color: blue;
+    color: white;
+}
+
+#backMenu:hover{
+    cursor: pointer;
+    outline: none;
+    border: 3px inset rgb(165, 164, 164);
+}
+
+#LastAccess{
+    position: absolute;
+    top: 4vh;
+    left: 12vh;
+    bottom: 1vh;
+}
